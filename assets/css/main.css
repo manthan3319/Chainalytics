@@ -23,7 +23,7 @@ body {
 
 .logo{
   filter: brightness(0.5);
-  width: 120px;
+  width: 100px;
 }
 
 a:focus,
@@ -159,7 +159,7 @@ p {
   z-index: 5;
   transition: all .4s ease-in-out;
   border: none;
-  background: linear-gradient(to right, #34b15e 0%, #73e09a 50%, #34b15e 100%);
+  background: linear-gradient(to right, #014199 0%, #014199 50%, #014199 100%);
   background-size: 200% auto;
   overflow: hidden;
 }
@@ -180,7 +180,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #365ae1;
+  background: black;
   text-align: center;
   line-height: 45px;
   font-size: 20px;
@@ -1114,13 +1114,13 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background: #365ae1;
+  background: black;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
 }
 
 .navbar {
-  padding: 0;
+  padding: 15px 0px;
   border-radius: 5px;
   position: relative;
   transition: all 0.3s ease-out 0s;
@@ -1256,7 +1256,7 @@ p {
   position: absolute;
   width: 0%;
   height: 3px;
-  background: #85E4A5;
+  background: #A4088B;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1382,7 +1382,7 @@ p {
     03.Hero-section CSS
 ===========================*/
 .hero-section {
-  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
+  background-image: linear-gradient(#000000 0%, #000000 4.66%, #000000 76.69%, #020202 100%);
   padding-top: 100px;
   padding-bottom: 80px;
   position: relative;
@@ -1526,7 +1526,7 @@ p {
     04.Feature css 
 ===========================*/
 .features-wrapper {
-  background-image: linear-gradient(#365ae1 0%, #244ae2 22.16%, #1029a6 76.69%, #1029a6 100%);
+  background-image: linear-gradient(#3d3f44 0%, #35373c 22.16%, #0b0c0e 76.69%, #000000 100%);
   padding: 60px 50px 20px;
   border-radius: 27px;
 }
@@ -1659,7 +1659,7 @@ p {
   align-items: center;
   font-size: 30px;
   border-radius: 10px;
-  background: #365ae1;
+  background: #000000;
   color: #fff;
   box-shadow: 5px 5px 0 rgba(54, 90, 225, 0.2);
 }
@@ -2194,4 +2194,9 @@ p {
 
 .footer .copyright-area p a:hover {
   color: #84E4A4;
+}
+
+
+.filterbg{
+  filter: grayscale(1);
 }

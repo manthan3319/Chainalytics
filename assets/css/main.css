@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #65677E;
+  color: #1d1d1f;
   overflow-x: hidden;
   background: #F4F7FC;
 }
@@ -1108,13 +1108,13 @@ p {
   width: 100%;
   z-index: 99;
   transition: all 0.3s ease-out 0s;
-  background: rgba(255, 255, 255, 0.04);
+  background: white;
 }
 
 .sticky {
   position: fixed;
   z-index: 99;
-  background: black;
+  background: white;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
 }
@@ -1153,7 +1153,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: #1b1b1b;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -1182,7 +1182,7 @@ p {
     width: 100%;
     background-color: #fff;
     z-index: 9;
-    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 15px 20px 0px rgba(240, 238, 238, 0.1);
     padding: 10px 20px;
   }
 }
@@ -1229,7 +1229,7 @@ p {
 
 .navbar-nav .nav-item a {
   font-size: 16px;
-  color: #fff;
+  color: #131212;
   transition: all 0.3s ease-out 0s;
   position: relative;
   padding: 20px 0;
@@ -1326,7 +1326,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a {
   display: block;
   padding: 8px 20px;
-  color: #222;
+  color: #e7dbdb;
 }
 
 .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
@@ -2120,17 +2120,18 @@ p {
     13.footer css 
 ===========================*/
 .footer .footer-widget p {
-  color: #fff;
+  color: #111111;
+ 
 }
 
 .footer .footer-widget h4 {
   font-size: 26px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #161616;
 }
 
 .footer .footer-widget ul.footer-links li a {
-  color: #fff;
+  color: #181717;
   display: block;
   line-height: 34px;
   transition: all .3s;
@@ -2151,10 +2152,10 @@ p {
   border-radius: 50%;
   text-align: center;
   line-height: 45px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(15, 15, 15, 0.15);
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: #131313;
   margin-right: 20px;
 }
 
@@ -2166,12 +2167,12 @@ p {
 }
 
 .footer .footer-widget .footer-social-links ul li a:hover {
-  background: white;
-  color: #365ae1;
+  background: rgb(194, 185, 185);
+  color: #0d0d0e;
 }
 
 .footer .copyright-area {
-  border-top: 2px solid rgba(255, 255, 255, 0.35);
+  border-top: 2px solid rgba(17, 17, 17, 0.35);
   padding: 30px 0;
   font-size: 16px;
 }
@@ -2189,7 +2190,7 @@ p {
 }
 
 .footer .copyright-area p a {
-  color: #fff;
+  color: #181717;
 }
 
 .footer .copyright-area p a:hover {

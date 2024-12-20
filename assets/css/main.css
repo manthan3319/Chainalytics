@@ -580,6 +580,7 @@ p {
 
 .mb-30 {
   margin-bottom: 30px;
+  /* margin-top: 150px; */
 }
 
 .mb-35 {
@@ -2139,7 +2140,7 @@ p {
 }
 
 .footer .footer-widget ul.footer-links li a:hover {
-  color: #84E4A4;
+  color: #0e0d0d;
   padding-left: 6px;
 }
 

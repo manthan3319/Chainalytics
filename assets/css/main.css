@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -2199,5 +2200,7 @@ p {
 
 
 .filterbg{
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
+  /* filter: brightness(0.5); */
+  filter: brightness(1.75);
 }

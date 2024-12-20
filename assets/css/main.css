@@ -1464,10 +1464,9 @@ p {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section .hero-img img {
-    width: 150%;
+    width: 140%;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-section .hero-img img {
     width: 120%;

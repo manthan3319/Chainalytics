@@ -92,6 +92,7 @@ h1 {
 
 h2 {
   font-size: 45px;
+  /* margin-top: 120px; */  
 }
 
 @media (max-width: 767px) {
@@ -1528,6 +1529,7 @@ p {
 .features-wrapper {
   background-image: linear-gradient(#3d3f44 0%, #35373c 22.16%, #0b0c0e 76.69%, #000000 100%);
   padding: 60px 50px 20px;
+  margin-bottom: 150px;
   border-radius: 27px;
 }
 
@@ -1860,6 +1862,7 @@ p {
   position: absolute;
   width: 100%;
   bottom: -90px;
+  margin-bottom: -30px; 
   z-index: -1;
   background: #fff;
   padding: 165px 30px 20px;
